@@ -1,0 +1,18 @@
+{
+    "frameworkId": "mitre_attack_atm",
+    "frameworkVersion": "1.0",
+    "categories": {
+        "techniques": [
+            {
+                "id": "ATM.T0010",
+                "name": "AFTERMARKET_CUSTOMER_OR_DEALER_EQUIPMENT",
+                "description": "Adversaries may take use aftermarket, customer, or dealer equipment as an initial access point into the vehicle. Paired devices, such as a customer's smart phone, often possess valid credentials for the vehicle’s Bluetooth and Wi-Fi networks, access to phone projection technologies, and may be connected to USB ports. Dealer test and diagnostic tools are typically connected to a vehicle's OBD-II port, which may provide direct access to a vehicle network; these tools may also have access to credentials for running diagnostic procedures. Third-party OBD-II accessories, such as insurance dongles and fleet management dongles, may introduce a wireless ingress points to the vehicle through its OBD-II port. These devices may also be used as a post-exploitation command-and-control mechanism, and to exfiltrate data from a vehicle."
+            },
+            {
+                "id": "ATM.T0011",
+                "name": "BROWSER_COMPROMISE",
+                "description": "Based on MITRE ATT&CK’s ‘Drive-by Compromise’ technique, a browser compromise is when an adversary gains access to a system through a user visiting a website over the normal course of browsing. With this technique, the user's web browser is targeted for exploitation. For example, a website may contain malicious media content intended to exploit vulnerabilities in media parsers as demonstrated by the Android Stagefright vulnerability. "
+            }
+        ]
+    }
+}

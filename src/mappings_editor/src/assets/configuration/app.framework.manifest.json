@@ -230,6 +230,11 @@
             "frameworkId": "mitre_attack_mobile",
             "frameworkVersion": "8.0",
             "filename": "mitre_attack_mobile_8.0.json"
+        },
+        {
+            "frameworkId": "mitre_attack_atm",
+            "frameworkVersion": "1.0",
+            "filename": "mitre_attack_atm_1.0.json"
         }
     ]
 }
